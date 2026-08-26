@@ -1,0 +1,6 @@
+interface:
+  display_name: "沧交课程考核与试卷归档"
+  short_description: "按角色检查、整改和问答课程考核与试卷归档材料"
+  default_prompt: "使用 $course-assessment-archive，按我的角色检查归档材料，先给可复制的目标目录树或文件到相对路径表，再说明问题、责任和依据。"
+policy:
+  allow_implicit_invocation: true
