@@ -32,8 +32,3 @@ git clone https://github.com/Teaching-Works-Lab/course-assessment-archive-skill.
 ```
 
 重新启动 Codex 后即可使用。
-
-## 内容与边界
-
-仓库只保存可移植的 Skill 指令和规则摘要，不包含原始制度 PDF、附件图片、本地 Wiki、学生姓名、学号、成绩、答卷或其他教学班级材料。精确核验时，应提供当前适用的正式制度文件；来源不足的结论必须标记为待核实。
-
