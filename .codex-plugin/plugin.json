@@ -1,0 +1,34 @@
+{
+  "name": "course-assessment-archive-skill",
+  "version": "0.1.0",
+  "description": "Organize and review course assessment and exam-material archives by role.",
+  "author": {
+    "name": "Teaching Works Lab",
+    "url": "https://github.com/Teaching-Works-Lab"
+  },
+  "homepage": "https://github.com/Teaching-Works-Lab/course-assessment-archive-skill",
+  "repository": "https://github.com/Teaching-Works-Lab/course-assessment-archive-skill",
+  "keywords": [
+    "education",
+    "assessment",
+    "exam-archive",
+    "compliance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Course Assessment Archive",
+    "shortDescription": "Organize and review course assessment archive materials.",
+    "longDescription": "Answer role-based course assessment archive questions, map files to required locations, identify gaps, and preserve responsibility and evidence boundaries.",
+    "developerName": "Teaching Works Lab",
+    "category": "Education",
+    "capabilities": [
+      "Build assessment archive directory maps",
+      "Check role-based material coverage",
+      "Explain current archive requirements"
+    ],
+    "defaultPrompt": [
+      "Check these course assessment materials and map every file to its archive path.",
+      "Build the required archive tree for my teaching role and identify missing materials."
+    ]
+  }
+}
