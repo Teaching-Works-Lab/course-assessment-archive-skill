@@ -4,6 +4,8 @@
 
 显式触发名称：`$course-assessment-archive`
 
+它属于 [Teaching Works Lab 课程教学 Skill 体系](https://github.com/Teaching-Works-Lab)，负责考核资料与试卷材料的归档要求；它不替代课程大纲中的考核设计，也不替代 `exam-word-skill` 的试卷格式处理。
+
 ## 主要用途
 
 - 生成可复制的课程考核资料目标目录树；
@@ -26,6 +28,15 @@ $course-assessment-archive 我是教学秘书，请检查本专业课程、教�
 ```
 
 ## 安装
+
+推荐先添加组织 Marketplace，再选择安装本 Plugin：
+
+```text
+codex plugin marketplace add Teaching-Works-Lab/.github
+codex plugin add course-assessment-archive-skill@teaching-works-lab
+```
+
+也可以继续按独立 Skill 方式安装：
 
 ```powershell
 git clone https://github.com/Teaching-Works-Lab/course-assessment-archive-skill.git "$env:USERPROFILE\.codex\skills\course-assessment-archive"
